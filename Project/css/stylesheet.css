@@ -183,11 +183,8 @@ div
 /* P tag Property */
 p
 {
-	  font-size:30px;
 	  font-family:Georgia, "Times New Roman", Times, serif;	
-	  color:#6F3;
-	  font-family:cursive;
-	  font-variant:small-caps;
+	  font-size:14px;
 }
 
 /* Menu Navigation Property */

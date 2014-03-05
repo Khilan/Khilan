@@ -7,15 +7,16 @@
 
 
 /* Slider Property */
-#slider{
-float: left;
-margin-left: 60%;
-margin-top: -90%;
-
+#slider
+{
+	float: left;
+	margin-left: 60%;
+	margin-top: -90%;
 }
 
 /* h1 property */
-h1 {
+h1 
+{
   color: #fff;
   text-align: center;
   font-weight: 300;
@@ -32,11 +33,12 @@ h1 {
 	margin: 20px auto 0 auto;
 	border-radius: 4px;
 	margin-left: 54%;
-	margin-top: -98%;
+	margin-top: -97%;
 }
 
 
-#slider ul {
+#slider ul 
+{
   position: relative;
   margin: 0;
   padding: 0;
@@ -44,7 +46,8 @@ h1 {
   list-style: none;
 }
 
-#slider ul li {
+#slider ul li 
+{
   position: relative;
   display: block;
   float: left;
@@ -58,7 +61,8 @@ h1 {
 }
 
 /* Next and previous Property for slider*/
-a.control_prev, a.control_next {
+a.control_prev, a.control_next 
+{
   position: absolute;
   top: 40%;
   z-index: 999;
@@ -75,18 +79,20 @@ a.control_prev, a.control_next {
   cursor: pointer;
 }
 
-a.control_prev:hover, a.control_next:hover {
+a.control_prev:hover, a.control_next:hover 
+{
   opacity: 1;
   -webkit-transition: all 0.2s ease;
 }
 
-a.control_prev {
+a.control_prev 
+{
   border-radius: 0 2px 2px 0;
   top:230;
 }
 
-a.control_next {
-  
+a.control_next 
+{  
   border-radius: 2px 0 0 2px;
   padding-right: 27.088; 
   right: 1;
@@ -94,7 +100,8 @@ a.control_next {
 }
 
 /* Slider option property */
-.slider_option {
+.slider_option 
+{
    position: relative;
    margin: 8px auto;
    width: 171px;
